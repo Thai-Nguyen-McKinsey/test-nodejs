@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/cdd6f790-af3f-4d5d-9eca-51698b3743ac/resourceGroups/vm1/providers/Microsoft.Web/sites/azure-test-node-webapp",
+  "appService.deploySubpath": "."
+}
