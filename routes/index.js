@@ -24,7 +24,7 @@ router.get('/', function(req, res, next) {
     client.query('SELECT * FROM item;', (err, result) => {
       console.log(result)
       console.log('after res')
-      res.render('index', { title: 'Load new instance', items: result.rows });
+      res.render('index', { title: 'Express', items: result.rows });
       // client.end();
     })
 });
